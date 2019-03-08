@@ -59,7 +59,7 @@ import getGutenbergEditorUrl from 'state/selectors/get-gutenberg-editor-url';
 import { getEditorPostId } from 'state/ui/editor/selectors';
 import { getEditedPostValue } from 'state/posts/selectors';
 import isGutenbergEnabled from '../../state/selectors/is-gutenberg-enabled';
-import { __ } from 'gutenberg/extensions/presets/jetpack/utils/i18n';
+import { __ } from '@automattic/jetpack-blocks/src/utils/i18n';
 
 class InlineHelpPopover extends Component {
 	static propTypes = {
