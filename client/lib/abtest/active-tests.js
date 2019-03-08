@@ -173,4 +173,14 @@ export default {
 		},
 		defaultVariation: 'original',
 	},
+	gSuiteStatsNudge: {
+		datestamp: '20190308',
+		variations: {
+			copy1: 25,
+			copy2: 25,
+			copy3: 25,
+			copy4: 25,
+		},
+		defaultVariation: 'copy1',
+	},
 };
